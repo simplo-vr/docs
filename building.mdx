@@ -3,4 +3,50 @@ title: "Building"
 description: "Step-by-step tutorial to do your SimploVR"
 ---
 
-##
+# Hardware
+
+All the hardware of SimploVR is pretty simple to find and can be replaced for better or worse versions since all that matter is the software (and at least a 6-dof imu). Here is a list of the products and a recommendation link.
+
+## Headset
+
+| Product         | Supplier/Link                         |
+| --------------- | ------------------------------------- |
+| 1x Arduino Micro | https://store-usa.arduino.cc/products/arduino-micro |
+| 1x mpu9250 | https://pt.aliexpress.com/item/1005004439490641.html?pdp_npi=2%40dis%21BRL%21R%24%2040%2C57%21R%24%2038%2C94%21%21%21%21%21%402101d1b616734837560467175eee53%2112000029185573027%21btf&_t=pvid%3A3bc2cc48-d54b-4dd2-8a53-a41f212935b8&afTraceInfo=1005004439490641__pc__pcBridgePPC__xxxxxx__1673483756&spm=a2g0o.ppclist.product.mainProduct&gatewayAdapt=glo2bra |
+| 2x Fresnel-lens | https://pt.aliexpress.com/item/33029909783.html?gatewayAdapt=glo2bra |
+| 1x HDMI VR Display | https://pt.aliexpress.com/item/32981354673.html?gatewayAdapt=glo2bra |
+| 4x Arduino camera module | https://tinkersphere.com/arduino-compatible-components/944-ov7670-vga-camera-module-for-arduino.html |
+| 3D Print | i recommend print-it using jlcpcb (pls sponsor me) |
+| 5x Led | i recommend buying close to you |
+| Jumper wires | i recommend buying close to you |
+
+## Controllers
+
+| Product         | Supplier/Link                         |
+| --------------- | ------------------------------------- |
+| 2x Arduino Micro | https://store-usa.arduino.cc/products/arduino-micro | $77.02 |
+| 2x mpu9250 | https://pt.aliexpress.com/item/1005004439490641.html?pdp_npi=2%40dis%21BRL%21R%24%2040%2C57%21R%24%2038%2C94%21%21%21%21%21%402101d1b616734837560467175eee53%2112000029185573027%21btf&_t=pvid%3A3bc2cc48-d54b-4dd2-8a53-a41f212935b8&afTraceInfo=1005004439490641__pc__pcBridgePPC__xxxxxx__1673483756&spm=a2g0o.ppclist.product.mainProduct&gatewayAdapt=glo2bra |
+| 2x Esp32 camera | https://pt.aliexpress.com/item/1005001997158739.html?pdp_npi=2%40dis%21BRL%21R%24%206%2C32%21R%24%204%2C47%21%21%21%21%21%402101c84a16741609460532145e25ba%2112000018358549846%21btf&_t=pvid%3A6bdade96-f869-4cd1-a01d-14077ead55fd&afTraceInfo=1005001997158739__pc__pcBridgePPC__xxxxxx__1674160946&spm=a2g0o.ppclist.product.mainProduct&gatewayAdapt=glo2bra |
+| 7x Push Buttons | i recommend buying close to you |
+| Jumper wires | i recommend buying close to you |
+| 3D-Print | i recommend print-it using jlcpcb (pls sponsor me) |
+
+#how to build
+
+## Print the frame
+
+First step is to 3D print the main frame used for developement. You can find it [here](https://github.com/simplo-vr/SimploVR/hardware/3d/)
+
+![frame](/images/conversion.png)
+
+## Inserting the screen
+
+Insert the screen on the screen hole on the front of the frame. You can use tape or something to mantain it in place for the dev phase.
+
+![screen](/images/conversion.png)
+
+## IMU
+
+Place the imu in the imu case on the top of the headset frame. Pls make sure that the usb is turned to left.
+
+![screen](/images/conversion.png)
