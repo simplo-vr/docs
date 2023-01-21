@@ -1,69 +1,57 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "SimploVR",
   "logo": {
-    "dark": "/logo/dark.png",
-    "light": "/logo/light.png"
+    "dark": "/logo/logo.png",
+    "light": "/logo/logo.png"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/logo/logo.png",
   "colors": {
-    "primary": "#0069ED",
+    "primary": "#ff0188",
     "light": "#4D9CFF",
     "dark": "#0050B4"
   },
-  "topbarLinks": [
-    {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
-    }
-  ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
+    "url": "https://github.com/simplo-vr/SimploVR"
   },
   "anchors": [
     {
-      "name": "API Reference",
-      "icon": "rectangle-terminal",
-      "url": "api-reference"
-    },
-    {
       "name": "Changelog",
       "icon": "list",
-      "url": "https://mintlify.com"
+      "url": "https://simplovr.mintlify.app/devlog"
     },
+    {
+      "name": "Github",
+      "icon": "github",
+      "url": "https://github.com/simplo-vr"
+    }
     {
       "name": "Community",
       "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "url": "https://discord.gg/KBsE46Dj9f"
     }
   ],
   "navigation": [
     {
-      "group": "Home",
-      "pages": ["introduction", "development"]
+      "group": "Getting Started",
+      "pages": ["introduction", "roadmap", "devlog"]
     },
     {
-      "group": "Learn More",
+      "group": "Hardware",
       "pages": ["features", "resources"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
+      "group": "Software",
+      "pages": ["features", "resources"]
     },
     {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
-      ]
-    }
+      "group": "About",
+      "pages": ["team", "features", "resources"]
+    },
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/simplo-vr",
+    "discord": "https://discord.gg/KBsE46Dj9f"
   }
 }
