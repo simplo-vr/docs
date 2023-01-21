@@ -12,15 +12,10 @@
     "dark": "#0050B4"
   },
   "topbarCtaButton": {
-    "name": "Get Started",
+    "name": "Build It",
     "url": "https://github.com/simplo-vr/SimploVR"
   },
   "anchors": [
-    {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://simplovr.mintlify.app/devlog"
-    },
     {
       "name": "Github",
       "icon": "github",
