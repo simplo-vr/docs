@@ -42,7 +42,7 @@
     },
     {
       "group": "About",
-      "pages": ["team", "features", "resources"]
+      "pages": ["about", "resources"]
     }
   ],
   "footerSocials": {
