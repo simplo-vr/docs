@@ -25,7 +25,7 @@
       "name": "Github",
       "icon": "github",
       "url": "https://github.com/simplo-vr"
-    }
+    },
     {
       "name": "Community",
       "icon": "discord",
@@ -48,7 +48,7 @@
     {
       "group": "About",
       "pages": ["team", "features", "resources"]
-    },
+    }
   ],
   "footerSocials": {
     "github": "https://github.com/simplo-vr",
