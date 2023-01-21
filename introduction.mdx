@@ -1,67 +1,78 @@
 ---
 title: "Introduction"
-description: "Welcome to the Mintlify Starter Kit"
+description: "Welcome to SimploVR a cool and cheap way to vr"
 ---
 
 <Note>
-  Update the content in main branch of your docs repo, and your documentation page will automatically be updated. It's that simple!
+  SimploVR and it's documentation still under development
 </Note>
+
+## What is SimploVR?
+
+SimploVR is a cheap virtual reality headset with 6-dof, steam vr support and a lot of cool stuff :)
+
+It's a project from [hackclub winter hardware](https://hackclub.com/winter) made by two guys that live in country where everything is way expansive. So SimploVR was made to affordable and easy to be modified, since we want you to be able to use what you have. have a cellphone? ok, use your phone instead of the sensors and the screen. Want to develop a hand tracker for simplo? for sure! do it!
+
+## Features
+
+SimploVR was made with a lot of research and refined code to get the best of it's structure and hardware. We still have a lot to do. But SimploVR already works fast and nice.
+
+### 6-DOF
+
+![6-dof](/images/conversion.png)
+
+SimploVR uses a 9-dof imu to calculates the position and rotation of your head on the 3D enviroment. Positional tracking with imu is a pretty dark theme and theres not to much people that used it before. But we made sure to use and improve that. Cause it's the cheapest way to do the thing.
+
+### SteamVR Support
+
+![steam-vr](/images/conversion.png)
+
+As a pc-vr headset steamvr could not be incompatible with it. We made sure to use things like hardware-emulation to simulate a branded vr headset and let all the games of steamvr catalog to work (or at least open).
+
+### Hand Tracking
+
+<Warning>
+  This feature is full experimental and may not be very accurate or even work...
+</Warning>
+
+![hand-tracking](/images/conversion.png)
+
+SimploVR uses a simple ESP32 camera and mediapipe data to track your hands. Not very precise but works pretty well and can do the main work (track the hands and fingers) nicely.
+
+### Controllers
+
+![controllers](/images/conversion.png)
+
+SimploVR has its own controllers designed to be easy to use and confortable. Fully 3D-Printed and made with the same imu of the headset. To make the work easier cause we just need to code one imu, and for price.
+
+### Full-Body-Tracking
+
+<Warning>
+  This feature is full experimental and may not be very accurate or even work...
+</Warning>
+
+![fbt](/images/conversion.png)
+
+Using ESP32 camera and Simplotware you can add full body tracking to your game. Pretty experimental and made really sidely from simplo.
 
 ## Getting Started
 
 Select from the following guides to learn more about how Mintlify can best suit your documentation.
 
 <CardGroup>
-  <Card title="Development" icon="rectangle-terminal" href="/development">
-    Run on your computer to see changes locally
+  <Card title="Bulding" icon="hammer" href="/building">
+    Build your own SimploVR from scratch.
   </Card>
-  <Card title="Global Settings" icon="sliders" href="https://mintlify.com/docs/settings/global">
-    Customizing the theme, branding, and other global configurations
+  <Card title="Hardware" icon="microchip" href="/hardware">
+    All the hardware used in SimploVR and it's modifications/improvements.
   </Card>
-  <Card title="Page Titles and Metadata" icon="heading" href="https://mintlify.com/docs/settings/page">
-    Setting the title and metadata for navigation and SEO
+  <Card title="Software" icon="computer-classic" href="/software">
+    The thing that makes us different and make the price keeps down
   </Card>
-  <Card title="Writing Content" icon="pen-nib" href="https://mintlify.com/docs/components/overview">
-    Introduction on how to add and edit content
+  <Card title="Roadmap" icon="list" href="/roadmap">
+    See how far we are from finish and what have been done.
   </Card>
-  <Card title="Learn More" icon="ellipsis" href="/resources">
-    See more in the resources page
+  <Card title="About" icon="ellipsis" href="/about">
+    Want to know the team, discover the history of simplo? you find it here.
   </Card>
 </CardGroup>
-
-## Customization Checklist
-
-Learn more about you can fully customize the starter template for your own documentation
-
-<AccordionGroup>
-  <Accordion title="Change name">Update the `name` property in `mint.json` to the name of your company or product</Accordion>
-  <Accordion title="Customize the branding">
-    Branding mostly happens in the `mint.json` file. You can learn more about all available [configuration properties](https://mintlify.com/docs/settings/global).
-
-    #### Update the logo
-
-    Update `logo` folder with the light and dark version of your logo (can be svg or png).
-    <Note>Make sure that the path matches the values set in `logo` of `mint.json`</Note>
-
-    #### Customize the colors
-
-    Populate the `colors` object with colors that match your brand
-
-    #### Update the favicon
-
-    Change the `favicon.png` with an image of the favicon
-
-    #### Update footer social icons
-
-    Update `footerSocials` with the right `[platform]: [url]` key-value pair
-  </Accordion>
-  <Accordion title="Update the anchors">Update the `anchors` array in `mint.json` with the links that you want to emphasize</Accordion>
-  <Accordion title="Update or remove the API Reference">
-    Either update the pages in `api-reference` or remove it entirely
-    <Note>If removing the API Reference, make sure to also remove it from the `anchors` and `navigation` from `mint.json`</Note>
-  </Accordion>
-  <Accordion title="Update the topbar navigation items">
-    Update the `topbarCtaButton` and `topbarLinks` properties in `mint.json` to the links that matter most
-    <Tip>The `topbarCtaButton` will receive the most number of clicks</Tip>
-  </Accordion>
-</AccordionGroup>
