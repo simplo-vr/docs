@@ -30,7 +30,7 @@
   "navigation": [
     {
       "group": "Getting Started",
-      "pages": ["introduction", "building", "roadmap", "devlog"]
+      "pages": ["introduction", "building", "roadmap"]
     },
     {
       "group": "Hardware",
