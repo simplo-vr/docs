@@ -1,39 +1,41 @@
 ---
 title: "Introduction"
-description: "Welcome to SimploVR a cool and cheap way to vr"
+description: "A cheap and incredile way to VR."
 ---
 
 <Note>
-  SimploVR and its documentation are still under development
+  SimploVR and it's documentation are still under development
 </Note>
 
 # What is SimploVR?
 
-SimploVR is a cheap virtual reality headset with 9-dof, steam vr support, and a lot of cool stuff :)
+SimploVR is a cheap virtual reality headset that provides a incredible VR experience for users. It brings 6-degree-of-freedom (6DoF) tracking, controllers, and compatibility with SteamVR, enabling users to interact with virtual environments in the best possible way.
 
-It's a project from [hackclub winter hardware](https://hackclub.com/winter) made by two guys that live in a country where everything is way expensive. So SimploVR was made to be affordable and easy to be modified since we want you to be able to use what you have. have a cellphone? ok. use your phone instead of the sensors and the screen. Want to develop a hand tracker for simplo? for sure! do it!
+What makes SimploVR stand out is that it's a community-driven project created by VR enthusiasts, for VR enthusiasts. We worked hard to refine the hardware and software to provide a high-quality experience while keeping the price low.
+
+Before being a open-non-fiancial, SimploVR was an [hackclub winter hardware](https://hackclub.com/winter) project. We only had $345 dollars to develop all the stuff we needed. So we are not only flexing a cheap headset, it is a cheap headset. The actual estimative of price is $60 dollars.
 
 # Features
 
-SimploVR was made with a lot of research and refined code to get the best of it's structure and hardware. We still have a lot to do. But SimploVR already works fast and stable.
+SimploVR was made to be an affordable VR headset that provides an immersive experience without breaking the bank. We work hardly to continually improve the technology and user experience. We want it to be the perfect way to explore virtual reality without paying a fortune.
 
-## 9-DOF
+## 6-DOF
 
-![9-dof](/images/conversion.png)
+SimploVR uses a 6-dof IMU to calculates the position and rotation of your head on the 3D enviroment. Positional tracking with IMU is a pretty dark theme and theres not to much people that used or developed it before. But we made sure to use and improve that. Cause it's the cheapest way to do it.
 
-SimploVR uses a 9-dof imu to calculates the position and rotation of your head on the 3D enviroment. Positional tracking with imu is a pretty dark thing and theres not to much people that used it before. But we made sure to use and improve that. Cause it's the cheapest way to do the thing.
+![6-dof](/images/conversion.png)
 
 ## SteamVR Support
 
-![steam-vr](/images/conversion.png)
+Most of the vr games are disponible on steam throug a library called steamvr. it's one of the easiest ways to play virtual reality games on pc. Our headset is almost fully compatible with his games library.
 
-As a pc-vr headset steam-vr could not be incompatible with it. We made sure to use things like hardware-emulation to simulate a branded vr headset and let all the games of steamvr catalog to work (or at least open).
+![steam-vr](/images/conversion.png)
 
 ## Controllers
 
-![controllers](/images/conversion.png)
+SimploVR has proprietary controllers designed to be easy to use and comfortable. Fully 3D-Printed and made with the same IMU as the headset. To make the work easier and lower for price.
 
-SimploVR has its proprietary controllers designed to be easy to use and comfortable. Fully 3D-Printed and made with the same imu as the headset. To make the work easier cause we just need to code one imu, and for price.
+![controllers](/images/conversion.png)
 
 ## Full-Body-Tracking
 
@@ -41,9 +43,9 @@ SimploVR has its proprietary controllers designed to be easy to use and comforta
   This feature is fully experimental and may not be very accurate or even work...
 </Warning>
 
-![fbt](/images/conversion.png)
+Using SimploDock (under developement) and SimploVR software you can add full-body tracking to your game (if supported). Pretty experimental and made sidely from simplo.
 
-Using ESP32 camera and Simplotware you can add full-body tracking to your game. Pretty experimental and made sidely from simplo.
+![fbt](/images/conversion.png)
 
 ## Hand Tracking
 
@@ -51,13 +53,13 @@ Using ESP32 camera and Simplotware you can add full-body tracking to your game. 
   This feature is fully experimental and may not be very accurate or even work...
 </Warning>
 
-![hand-tracking](/images/conversion.png)
+SimploVR uses a simple SimploCam and mediapipe data to track your hands. Not very precise but works pretty well and can do the main work (track the hands and fingers) nicely.
 
-SimploVR uses a simple ESP32 camera and mediapipe data to track your hands. Not very precise but works pretty well and can do the main work (track the hands and fingers) nicely.
+![hand-tracking](/images/conversion.png)
 
 # Getting Started
 
-Like the project? here's where to start
+Like the project? here's where to start:
 
 <CardGroup>
   <Card title="Bulding" icon="hammer" href="/building">
